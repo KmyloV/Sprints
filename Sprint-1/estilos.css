@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     background-color: black;
+    color: greenyellow;
 }
 header{
     width: 100%;
@@ -14,21 +15,23 @@ nav{
     height: 70px;
     margin: auto;
     background-color: yellow;
-}
-.menu{
-    height: 70px;
-}
-nav button{
-    background-color: yellow;
-    height:100%;
-}
-nav figure{
-    height: 70px;
 
 }
+[id="irA_registro _usuario"] {
+    color: pink;
+}
+#boton_registro_usuario{
+    height:70px;
+    width: 100px;
+    float: right;
+    border: none;
+}
+
 nav #landing_logo{
+    height: 70px;
     height:100%;
     background-color: transparent;
+    float: left;
 }
 
 /*SECCION DEL TITULO Y EXPLICACION*/
@@ -39,3 +42,4 @@ section{
 }
 section h1{
     margin: 20px;
+}
